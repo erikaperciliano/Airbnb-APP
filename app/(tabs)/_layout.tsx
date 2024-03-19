@@ -8,7 +8,8 @@ function Layout() {
     <Tabs screenOptions={{ 
       tabBarActiveTintColor: Colors.primary,
       tabBarLabelStyle: {
-      fontFamily: 'mon-sb'}
+      fontFamily: 'mon-sb'},
+      headerTitleAlign: 'center'
     }}>
       <Tabs.Screen name='index' options={{
         tabBarLabel: 'Explore',
